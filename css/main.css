@@ -1,0 +1,502 @@
+/*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+                            /*HEADER*/
+
+header {
+  z-index: 1;
+}
+header .Top{
+  text-align: center;
+  z-index: 2;
+}
+header h1 {
+  background-color: yellow;
+  text-align: center;
+}
+
+header .Logo {
+  position: absolute;
+  z-index: 3;
+  left: 0px;
+  top: 20px;
+}
+
+a {
+  padding-right: 40px;
+  text
+}
+
+                        /*--------BODY-----*/
+body {
+  background-color: black;
+}
+
+                        /*-------MAIN------*/
+main {
+  background-color: black;
+}
+main .title-project {
+  text-align: center;
+  background-color: grey;
+}
+
+#Content-main {                           /*Content Nav & Section*/
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+                /*Navigation*/
+
+nav {
+  margin-top: 5%;
+  height: 690px;                      /*Placement of Nav*/
+  border: 4mm ridge grey;
+  margin-top: 125px;
+  margin-left: 30px;
+  padding: 10px;
+  background-color: yellow;
+}
+
+nav h2 {
+  text-align: center;                 /*Align title with Nav*/
+}
+
+nav ul {
+  list-style-type: none;              /*Change the style of the list with margin*/
+  margin-right: 30px;
+
+
+}
+
+nav li {
+  margin-bottom: 80px;                /*Creat a margin-bottom for li in MENU-list*/
+  border-top: 1px solid black;
+  padding-top: 5px;
+}
+
+                /*Section Project*/
+section {
+  width: 80%;                           /*Modification to widht and margin*/
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+section .projet {
+  text-align: center;                     /*Center the Title "Projet" & "Semaine A - Semaine B"*/
+}
+
+section .WeekA-B {
+  text-align: center;
+  margin-left: 140px;              /*Block "Semaine A - Semaine B"*/
+  background-color: yellow;
+  border: 4mm ridge grey;
+}
+                /*************ARTICLE BLOC A1***********/
+
+section .article-bloc1 {
+  display: flex;
+  justify-content: space-around;                /*Gathers the content of article A*/
+  margin-left: 14%;
+  border: 4mm ridge grey;
+  background-color: yellow;
+  }
+
+section .article-a1 ul {                        /*Modification of text decoration UL*/
+  text-decoration: line-through;
+}
+
+section .article-a2 {
+  border-right: 2px solid black;                /*Creat a border article-a2 for separate Article -a1 and Article -a2*/
+  border-left: 2px solid black;
+  padding-right: 70px;
+  padding-left:  70px;
+}
+
+section .article-a2 ul {
+  text-decoration: line-through;                /*Modification of text decoration UL*/
+}
+
+section .article-a3 {}                          /*Block reserved for add something*/
+
+.article-bloc1 .article-a1 h3 {                 /*Modification color and position of text*/
+  background-color: green;
+  text-align: center;
+  }
+
+.article-bloc1 .article-a2 h3 {                 /*Modification color and position of text*/
+  text-align: center;
+  background-color: green;
+}
+
+.article-bloc1 .article-a3 h3 {                  /*Modification color and position of text*/
+  background-color: red;
+  text-align: center;
+}
+
+                        /**********ARTICLE BLOC-B2***********/
+
+section .article-bloc2 {                        /*Gathers the content of article-B*/
+  display: flex;
+  justify-content: space-around;
+  margin-left: 14%;
+  border: 4mm ridge grey;
+  background-color: yellow;
+}
+
+section .article-b1 ul {                        /*Modification of text decoration UL*/
+  text-decoration: line-through;
+}
+
+section .article-b2 {}                          /*Block reserved for add something*/
+
+section .article-b3 ul {                        /*Modification of text decoration UL*/
+  text-decoration: line-through;
+}
+
+.article-b1 h3 {                                /*Modification color and position of text*/
+  text-align: center;
+  background-color: green;
+}
+
+.article-b2 h3 {                                /*Modification color and position of text*/
+  text-align: center;
+  background-color: orange;
+}
+
+.article-b3 h3 {
+  text-align: center;                           /*Modification color and position of text*/
+  background-color: green;
+}
+
+
+/************************************LEGEND**************************/
+
+.legend {
+  background-color: yellow;                     /*Creation of Blocck Legend*/
+  width: 60%;
+  float: right;
+  height: 40px;
+  margin-right: 40px;
+  border: 4mm ridge grey;
+  text-align: center;
+}
+
+.legend .title-legend {                         /*Give a position of title "Legend"*/
+  float: left;
+  margin-top: 10px;
+}
+
+.legend p {                                     /*Modification of order words*/
+  display: inline-block;
+  margin-right: 50px;
+  font-weight: bold;
+}
+
+.legend .fini {                                 /*Modification the color "Fini"*/
+  background-color: green;
+}
+
+.legend .en-cour {                              /*Modification the color "Orange"*/
+  background-color: orange;
+}
+
+.legend .urgent {                               /*Modification the color "Urgent"*/
+  background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster */
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
